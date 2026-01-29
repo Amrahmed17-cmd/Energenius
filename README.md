@@ -1,7 +1,6 @@
 # ENERGENIUS
 
 ENERGENIUS is a mobile application for tracking and managing household energy consumption. The app allows users to monitor their energy usage across different devices, view historical consumption data, and make informed decisions to reduce their energy footprint.
--[Download the App](https://raw.githubusercontent.com/user/repository/branch/filename)
 
 - [Download the file](https://raw.githubusercontent.com/Amrahmed17-cmd/Energenius/tree/main/Energenius.apk)
 
