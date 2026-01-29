@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460507002308",
+    "project_id": "energenius-56431",
+    "storage_bucket": "energenius-56431.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460507002308:android:5f414b279230779ac4e091",
+        "android_client_info": {
+          "package_name": "com.example.energenius"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq7MvoXK2AdHiA4Bv6hKAESYler2AxqBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

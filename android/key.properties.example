@@ -1,0 +1,29 @@
+# Example key.properties file - Rename to key.properties and update with your signing information
+# IMPORTANT: Never commit the actual key.properties file to version control!
+
+# Path to your keystore file
+storeFile=/path/to/your/keystore.jks
+
+# Keystore password
+storePassword=your_keystore_password
+
+# Key alias
+keyAlias=your_key_alias
+
+# Key password
+keyPassword=your_key_password
+
+# How to create a keystore for app signing:
+# 1. Open a terminal and run:
+#    keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key0
+# 
+# 2. Answer the prompts to complete keystore creation
+# 
+# 3. Move the keystore file to a secure location
+# 
+# 4. Update this file with the actual path and credentials
+# 
+# 5. Rename this file to key.properties (without the .example extension)
+#
+# For more information on app signing, see:
+# https://developer.android.com/studio/publish/app-signing 

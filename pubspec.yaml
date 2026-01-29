@@ -1,0 +1,63 @@
+name: energenius
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  animations: ^2.0.11
+  cloud_firestore: ^5.6.5
+  google_sign_in: ^6.3.0
+  fluttertoast: ^8.2.12
+  font_awesome_flutter: ^10.8.0
+  shared_preferences: ^2.5.3 
+  sqflite_common_ffi: ^2.3.0
+  path_provider: ^2.1.2
+  provider: ^6.0.5
+  firebase_messaging: ^15.2.4
+  flutter_local_notifications: ^18.0.1
+  flutter_local_notifications_linux: ^5.0.0
+  csv: ^6.0.0
+  share_plus: ^10.1.4
+  permission_handler: ^11.0.1 
+  intl: 0.20.2
+  fl_chart: ^0.71.0
+  logger: ^2.0.2
+  simple_animations: ^5.0.0+1
+  local_auth: ^2.0.1
+  flutter_background_service: ^5.1.0
+  flutter_background_service_android: ^6.3.0
+  flutter_background_service_ios: ^5.0.3
+  package_info_plus: ^8.3.0
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  generate: true
+  assets:
+    - assets/google_icon.png
+    - assets/translations/
+
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21

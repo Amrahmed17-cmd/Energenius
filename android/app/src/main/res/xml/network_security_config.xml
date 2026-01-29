@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Base configuration for all connections -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- Domain specific configurations -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">energenius-56431.firebaseapp.com</domain>
+        <domain includeSubdomains="true">firebase.google.com</domain>
+        <domain includeSubdomains="true">googleapis.com</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config> 

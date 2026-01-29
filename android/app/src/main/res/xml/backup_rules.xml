@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include most app data in auto backups -->
+    <include domain="sharedpref" path="."/>
+    <include domain="database" path="."/>
+    <include domain="root" path="." />
+    
+    <!-- Exclude sensitive information from backups -->
+    <exclude domain="sharedpref" path="com.google.android.gms.appid.xml"/>
+    <exclude domain="sharedpref" path="firebase_messaging_record_store.xml"/>
+    <exclude domain="database" path="firebaseLocalStorage"/>
+</full-backup-content> 
